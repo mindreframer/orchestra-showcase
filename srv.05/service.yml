@@ -1,0 +1,6 @@
+env:
+    ABC: "srv.05"
+before:
+    - "echo: I am before srv.05"
+after:
+    - "echo: I am after srv.05"

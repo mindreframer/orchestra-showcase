@@ -1,0 +1,6 @@
+env:
+    ABC: "somethingGlobal"
+before:
+    - "echo I am a global command before"
+after:
+    - "echo I am a global after"
